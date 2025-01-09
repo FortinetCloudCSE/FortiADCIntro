@@ -1,13 +1,13 @@
 {
-  "repoName":"UserRepo",
-  "author":"Jeff Kopko",
-  "workshopTitle":"Hugo for Fortinet TECWorkshops",
+  "repoName":"FortiADCIntro",
+  "author":"Nishant Dhawan, Wondyrad Tefera",
+  "workshopTitle":"FortiADC Enhanced Application Security with Adaptive Learning",
   "themeVariant":"Workshop",
   "logoBannerText":"",
   "logoBannerSubText":"",
   "errorLevel":"warning",
   "googleServicesID":"G-5RZBH288ST",
-  "marketingCode": "MGO12345",
+  "marketingCode": "",
   "shortcuts": [
   {
     "text": "Fortinet Cloud CSE GitHub Org",

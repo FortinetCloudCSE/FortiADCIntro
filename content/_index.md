@@ -1,28 +1,27 @@
 ---
-title: "Fortinet TECWorkshop Template - MVP2"
-linkTitle: "TECWorkshop Template"
+title: "FortiADC FortiADC Enhanced Application Security with Adaptive Learning"
 weight: 1
 archetype: "home"
-description: "Hugo for Fortinet TEC Workshops"
+description: "FortiADC Introduction workshop"
 ---
 
 {{< launchdemoform >}}
 
-### Welcome!
+### What is ADC ? 
 
-This site will explain how to use the [Hugo Web Framework](https://gohugo.io/) & the ["reLearn" Theme](https://mcshelby.github.io/hugo-theme-relearn/index.html) to effectively organize & deliver Fortinet TEC Workshops & Product demos in a consistent, simple, and visually appealing format.
+An ADC (Application Delivery Controller) is a sophisticated server load balancer. It directs traffic to available destination servers based on health checks and load-balancing algorithms. A comprehensive ADC, such as the FortiADC, enhances application performance by offloading certain server tasks. These tasks include SSL encryption/decryption, Web Application Firewall (WAF) protection, Gzip compression, and routing processes like Network Address Translation (NAT).
 
-The beauty of this framework lies in its simplicity.  Within approx 30 mins, anybody can have a site up and running.  Content is created via Markdown files, and the workshop guide layout is simply a directory structure.
+FortiADC utilizes Layer 4 and Layer 7 session information to enable an ADC policy and management framework for:
 
-Follow along on this simple tutorial to get up and running with a Hugo formatted site for your TEC Workshop/training/demo content today!
+- Server load balancing
+- Link load balancing
+- Global load balancing
+- Security
+
+The FortiADC family comprises both physical and virtual appliances. More details on different platforms can be found here. 
+https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiADC.pdf
 
 ### Learning Objectives
-- Setup UserRepo on your system & Build container with Hugo & CentralRepo
-- Learn to work in Hugo to create your content to display proper information flow for your TEC Workshop/demo/training
-- Publish your Hugo site to GitHub pages via a CI/CD model 
- 
-### Hugo and Fortinet TECWorkshops - Visually
-- The purpose of this workflow is to simplify creation of Fortinet TECWorkshop guides while providing an example CI/CD development environment with maximum re-usability 
-- Here's a visual representation of our process which will be fully explained in each chapter
-
-{{< FTNThugoFlow >}}
+- Thing 1
+- thing 2
+- thing 3
