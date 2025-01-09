@@ -1,5 +1,5 @@
 ---
-title: "Ch 1 Getting Started
+title: "Ch 1 Getting Started"
 linkTitle: "Ch 1: Setup"
 weight: 10
 #archetype: "chapter"
