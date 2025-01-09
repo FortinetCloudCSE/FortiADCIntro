@@ -46,7 +46,7 @@ pipeline {
        }
 
        stage('Running FortiDevSec scans...') {
-            when { expression { false } }
+            when { expression { true } }
             steps {
                 echo "Running SAST scan..."
                 sh 'env | grep -E "JENKINS_HOME|BUILD_ID|GIT_BRANCH|GIT_COMMIT" > /tmp/env'
