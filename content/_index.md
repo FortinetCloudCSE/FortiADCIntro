@@ -22,6 +22,5 @@ The FortiADC family comprises both physical and virtual appliances. More details
 https://www.fortinet.com/content/dam/fortinet/assets/data-sheets/FortiADC.pdf
 
 ### Learning Objectives
-- Thing 1
-- thing 2
-- thing 3
+- Review features introduced in version 7.60
+- Review current market trends 

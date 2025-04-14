@@ -1,23 +1,48 @@
 ---
-title: "Manual Hugo Build"
-linkTitle: "Legacy Hugo Build"
+title: "FortiView Dashboard"
+linkTitle: "FortiView"
 chapter: false
-weight: 50
+weight: 1
 ---
 
-### Hugo Build
+### FortiView
 
-When you're satisfied with Hugo view of your content in Hugo virtual server, issue a Hugo 'build' in the container CLI
+The FortiView pages provide critical insights into your applications and the FortiADC appliance. FortiView offers a comprehensive view of:
 
-```shell
-    hugo --minify --cleanDestinationDir
-```
-        
-   - This command "builds" your Hugo site into the container's **_/public_** folder.  We used a docker disk mount to map this folder back to your local **_/docs_** folder, so the Hugo website will automatically be copied back into your local repo
-   - flag '--cleanDestinationDir' tells hugo to re-write the entire output directory with its build, so it will clear out template files/anything else that may be in there
-   - You can now exit the container with **ctrl + cd**, or command: **'exit'**
-   - When you exit the container, any files stored or changes you made to the container will be lost and cannot be recovered
-     - **_Remember_** we edited the /content folder on our local OS, so those changes were not made to the container and will not be lost
-     - Further, the disk mount from local's **_/docs_** to Container's **_public_** AUTOMATICALLY writes the hugo build to your local OS, so those changes will not be lost
-     - If you need to continue editing, just run a new container from your built image, and run hugo's webserver.  Everything is linked properly so it should just work
+- The logical topology of real server pools and their associated members within each virtual server
+
+- Server load-balancing metrics
+
+- Security-related events and other key system alerts
+
+
+   ![Logical Topology](FortiView1.png)
    
+   The image above is a partial screen capture of the FortiView > Logical Topology page. It shows the internal configuration of a virtual server named "Web_L4, which has the following configurations on it:
+   - A real-server pool named "Web-Group1" which contains 3 members (real servers) in it.
+   - The virtual server is associated with Port 2, which is up (working).
+Apart from viewing the internal configurations of virtual servers, you can also drill down into the components 
+
+The **Analytics** page provides real-time analysis of data about the virtual server using colored icons, charts, and diagrams, etc
+![Analytics](analytics.png)
+
+The **Health** page uses a bar graph to display the virtual server’s health status over a specified time frame.
+![Health](Health.png)
+
+The **Client** page provides a global view of the clients accessing the virtual server. It includes detailed sections showing client locations, device types, browser types, and operating systems used to access the application.
+
+![Client](client.png)
+
+
+The **Sessions** page displays all active sessions currently maintained by the virtual server.
+
+![Sessions](Sessions.png)
+
+The **Persistence** page lists all active persistence sessions associated with the virtual server.
+
+![Persis](Persis-1.png)
+
+
+The **Statistics** page provides traffic and performance metrics specific to the virtual server. This data is available only for HTTP/HTTPS virtual servers.
+
+![Stat](Stat-1.png)

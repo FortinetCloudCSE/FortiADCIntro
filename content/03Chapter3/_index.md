@@ -1,12 +1,9 @@
 ---
-title: "Ch 3 - Hugo Publish "
+title: "Ch 3 - Logs and Dashboard "
 chapter: false
-linkTitle: "Ch 3: Publish"
+linkTitle: "Ch 3: Logs and Dashboard"
 weight: 30
 ---
+### Review Dashboards and logging capability of FortiADC ( 20 min)
 
-### ***Publish your content to GitHub pages via a GitHub action***
-
-Now that you have your content first draft, push your repo to github, there's already a GitHub action to automatically publish your content anytime you upload to the repo
-
-Click the right arrow to go through each step individually
+In this section, we will explore the logging, dashboard, and reporting capabilities of FortiADC. Your lab environment has been pre-configured. The instructor will walk you through the current settings and demonstrate how to effectively utilize the dashboard to maximize the value of the solution. 
