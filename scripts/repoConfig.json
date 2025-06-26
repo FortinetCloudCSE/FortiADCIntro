@@ -10,8 +10,8 @@
   "marketingCode": "",
   "shortcuts": [
   {
-    "text": "Fortinet Cloud CSE GitHub Org",
-    "URL": "https://github.com/FortinetCloudCSE",
+    "text": "FortiADC Documentation",
+    "URL": "https://docs.fortinet.com/product/fortiadc/7.6",
     "icon": "fa-graduation-cap",
     "weight":10
   },
