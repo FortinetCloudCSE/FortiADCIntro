@@ -5,7 +5,6 @@ archetype: "home"
 description: "FortiADC Introduction workshop"
 ---
 
-{{< launchdemoform >}}
 
 ### What is ADC ? 
 
